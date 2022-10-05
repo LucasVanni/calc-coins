@@ -18,7 +18,7 @@ function App() {
         Number(valueEASportsTaxa) +
         Number(howMuchProfit)
     );
-  }, [howMuchProfit]);
+  }, [valueSendByUser, howMuchProfit]);
 
   return (
     <div className="App">
