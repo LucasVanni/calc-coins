@@ -78,7 +78,7 @@ function App() {
 
         <p style={{ marginTop: "15px" }}>
           Calculo da Taxa da EA com base no valor digitado:{" "}
-          {parseFloat(valueEASportsTaxa)} coins
+          {parseFloat(valueEASportsTaxa).toFixed(2)} coins
         </p>
 
         <div
@@ -115,7 +115,7 @@ function App() {
 
         <div>
           <p style={{ marginTop: "20px" }}>
-            Valor ideal de venda: {parseFloat(valueToSell)} coins.
+            Valor ideal de venda: {parseFloat(valueToSell).toFixed(2)} coins.
           </p>
         </div>
       </div>
